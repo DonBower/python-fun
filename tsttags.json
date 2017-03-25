@@ -1,0 +1,21 @@
+{
+    "AIGName": "tagsasc1md0002",
+    "AMI": "ami-d969ceb9",
+    "App_Contact": "Stephen.Saenz@aig.com",
+    "Application": "PCF",
+    "Application_Role": "Appliance",
+    "BIO": "TechSvcs",
+    "Compliance": "None",
+    "CreatedBy": "Christopher Lostaunau",
+    "Data_Classification": "Restricted",
+    "EnvironmentType": "inc",
+    "GearID": "5098",
+    "Im_A_Bad_Tag": "Im_A_Bad_Value",
+    "Im_A_Bad_Tag_too": "Im_A_Bad_Value_too",
+    "Name": "tagsasc1md0002",
+    "Project": "ConneXt",
+    "Subcomponent": "PCF Management",
+    "Support_Email": "EnterpriseDevOps@aig.com",
+    "Support_Group": "AIG TechSvcs PaaS",
+    "Terraform": "True"
+}

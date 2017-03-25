@@ -1,0 +1,76 @@
+{
+  "Tags": [
+      {
+          "Value": "ami-d969ceb9",
+          "Key": "AMI"
+      },
+      {
+          "Value": "True",
+          "Key": "Terraform"
+      },
+      {
+          "Value": "tagsasc1md0002",
+          "Key": "Name"
+      },
+      {
+          "Value": "PCF Management",
+          "Key": "Subcomponent"
+      },
+      {
+          "Value": "Appliance",
+          "Key": "Application_Role"
+      },
+      {
+          "Value": "PCF",
+          "Key": "Application"
+      },
+      {
+          "Value": "TechSvcs",
+          "Key": "BIO"
+      },
+      {
+          "Value": "inc",
+          "Key": "EnvironmentType"
+      },
+      {
+          "Value": "tagsasc1md0002",
+          "Key": "AIGName"
+      },
+      {
+          "Value": "0031-0670-6222",
+          "Key": "CBD"
+      },
+      {
+          "Value": "None",
+          "Key": "Compliance"
+      },
+      {
+          "Value": "AIG TechSvcs PaaS",
+          "Key": "Support_Group"
+      },
+      {
+          "Value": "Restricted",
+          "Key": "Data_Classification"
+      },
+      {
+          "Value": "5098",
+          "Key": "GearID"
+      },
+      {
+          "Value": "Christopher.Lostaunau.com",
+          "Key": "CreatedBy"
+      },
+      {
+          "Value": "Stephen.Saenz@aig.com",
+          "Key": "App_Contact"
+      },
+      {
+          "Value": "EnterpriseDevOps@aig.com",
+          "Key": "Support_Email"
+      },
+      {
+          "Value": "ConneXt",
+          "Key": "Project"
+      }
+  ]
+}

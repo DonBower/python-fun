@@ -1,0 +1,118 @@
+{
+    "Tags": [
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "tagsasc1md0002", 
+            "Key": "AIGName"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "ami-d969ceb9", 
+            "Key": "AMI"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "Stephen.Saenz@aig.com", 
+            "Key": "App_Contact"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "PCF", 
+            "Key": "Application"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "Appliance", 
+            "Key": "Application_Role"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "TechSvcs", 
+            "Key": "BIO"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "None", 
+            "Key": "Compliance"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "Christopher Lostaunau", 
+            "Key": "CreatedBy"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "Restricted", 
+            "Key": "Data_Classification"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "inc", 
+            "Key": "EnvironmentType"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "5098", 
+            "Key": "GearID"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "Im_A_Bad_Value", 
+            "Key": "Im_A_Bad_Tag"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "Im_A_Bad_Value_too", 
+            "Key": "Im_A_Bad_Tag_too"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "tagsasc1md0002", 
+            "Key": "Name"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "ConneXt", 
+            "Key": "Project"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "PCF Management", 
+            "Key": "Subcomponent"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "EnterpriseDevOps@aig.com", 
+            "Key": "Support_Email"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "AIG TechSvcs PaaS", 
+            "Key": "Support_Group"
+        }, 
+        {
+            "ResourceType": "instance", 
+            "ResourceId": "i-019724f69982aa87f", 
+            "Value": "True", 
+            "Key": "Terraform"
+        }
+    ]
+}

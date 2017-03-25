@@ -1,0 +1,340 @@
+{
+    "Reservations": [
+        {
+            "OwnerId": "516131926383", 
+            "ReservationId": "r-02e2d55f9fa2e3bb4", 
+            "Groups": [], 
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2017-03-24T16:24:33.000Z", 
+                    "PrivateIpAddress": "10.15.228.36", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-981eceff", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-019724f69982aa87f", 
+                    "ImageId": "ami-d969ceb9", 
+                    "PrivateDnsName": "ip-10-15-228-36.us-west-2.compute.internal", 
+                    "KeyName": "keypair-xw2-inc-pcf", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
+                            "GroupId": "sg-1601e56d"
+                        }
+                    ], 
+                    "ClientToken": "", 
+                    "SubnetId": "subnet-157bae5c", 
+                    "InstanceType": "m3.large", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "06:35:52:4b:cd:8f", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-981eceff", 
+                            "Description": "", 
+                            "NetworkInterfaceId": "eni-7777ff32", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true, 
+                                    "PrivateIpAddress": "10.15.228.36"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-f1813c88", 
+                                "AttachTime": "2017-03-24T16:24:33.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
+                                    "GroupId": "sg-1601e56d"
+                                }
+                            ], 
+                            "SubnetId": "subnet-157bae5c", 
+                            "OwnerId": "516131926383", 
+                            "PrivateIpAddress": "10.15.228.36"
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-west-2a"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-03bc6de8ca87fd808", 
+                                "AttachTime": "2017-03-24T16:24:33.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "PCF Management", 
+                            "Key": "Subcomponent"
+                        }, 
+                        {
+                            "Value": "tagsasc1md0002", 
+                            "Key": "Name"
+                        }, 
+                        {
+                            "Value": "TechSvcs", 
+                            "Key": "BIO"
+                        }, 
+                        {
+                            "Value": "Im_A_Bad_Value", 
+                            "Key": "Im_A_Bad_Tag"
+                        }, 
+                        {
+                            "Value": "tagsasc1md0002", 
+                            "Key": "AIGName"
+                        }, 
+                        {
+                            "Value": "PCF", 
+                            "Key": "Application"
+                        }, 
+                        {
+                            "Value": "True", 
+                            "Key": "Terraform"
+                        }, 
+                        {
+                            "Value": "ami-d969ceb9", 
+                            "Key": "AMI"
+                        }, 
+                        {
+                            "Value": "Stephen.Saenz@aig.com", 
+                            "Key": "App_Contact"
+                        }, 
+                        {
+                            "Value": "inc", 
+                            "Key": "EnvironmentType"
+                        }, 
+                        {
+                            "Value": "None", 
+                            "Key": "Compliance"
+                        }, 
+                        {
+                            "Value": "AIG TechSvcs PaaS", 
+                            "Key": "Support_Group"
+                        }, 
+                        {
+                            "Value": "Christopher Lostaunau", 
+                            "Key": "CreatedBy"
+                        }, 
+                        {
+                            "Value": "5098", 
+                            "Key": "GearID"
+                        }, 
+                        {
+                            "Value": "Restricted", 
+                            "Key": "Data_Classification"
+                        }, 
+                        {
+                            "Value": "Appliance", 
+                            "Key": "Application_Role"
+                        }, 
+                        {
+                            "Value": "ConneXt", 
+                            "Key": "Project"
+                        }, 
+                        {
+                            "Value": "Im_A_Bad_Value_too", 
+                            "Key": "Im_A_Bad_Tag_too"
+                        }, 
+                        {
+                            "Value": "EnterpriseDevOps@aig.com", 
+                            "Key": "Support_Email"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ]
+        }, 
+        {
+            "OwnerId": "516131926383", 
+            "ReservationId": "r-0969d918dfbf2b57a", 
+            "Groups": [], 
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2017-03-24T16:24:34.000Z", 
+                    "PrivateIpAddress": "10.15.228.37", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-981eceff", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-0a85939f7d3d92d7a", 
+                    "ImageId": "ami-d969ceb9", 
+                    "PrivateDnsName": "ip-10-15-228-37.us-west-2.compute.internal", 
+                    "KeyName": "keypair-xw2-inc-pcf", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
+                            "GroupId": "sg-1601e56d"
+                        }
+                    ], 
+                    "ClientToken": "", 
+                    "SubnetId": "subnet-157bae5c", 
+                    "InstanceType": "m3.large", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "06:9f:87:c2:6f:0b", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-981eceff", 
+                            "Description": "", 
+                            "NetworkInterfaceId": "eni-260a8263", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true, 
+                                    "PrivateIpAddress": "10.15.228.37"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-e6803d9f", 
+                                "AttachTime": "2017-03-24T16:24:34.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
+                                    "GroupId": "sg-1601e56d"
+                                }
+                            ], 
+                            "SubnetId": "subnet-157bae5c", 
+                            "OwnerId": "516131926383", 
+                            "PrivateIpAddress": "10.15.228.37"
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-west-2a"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-059d664d7a32ef600", 
+                                "AttachTime": "2017-03-24T16:24:34.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "PCF Management", 
+                            "Key": "Subcomponent"
+                        }, 
+                        {
+                            "Value": "True", 
+                            "Key": "Terraform"
+                        }, 
+                        {
+                            "Value": "None", 
+                            "Key": "Compliance"
+                        }, 
+                        {
+                            "Value": "Appliance", 
+                            "Key": "Application_Role"
+                        }, 
+                        {
+                            "Value": "ami-d969ceb9", 
+                            "Key": "AMI"
+                        }, 
+                        {
+                            "Value": "TechSvcs", 
+                            "Key": "BIO"
+                        }, 
+                        {
+                            "Value": "inc", 
+                            "Key": "EnvironmentType"
+                        }, 
+                        {
+                            "Value": "PCF", 
+                            "Key": "Application"
+                        }, 
+                        {
+                            "Value": "Im_A_Bad_Value", 
+                            "Key": "Im_A_Bad_Tag"
+                        }, 
+                        {
+                            "Value": "Dummy", 
+                            "Key": "Name"
+                        }, 
+                        {
+                            "Value": "5098", 
+                            "Key": "GearID"
+                        }, 
+                        {
+                            "Value": "ConneXt", 
+                            "Key": "Project"
+                        }, 
+                        {
+                            "Value": "EnterpriseDevOps@aig.com", 
+                            "Key": "Support_Email"
+                        }, 
+                        {
+                            "Value": "Restricted", 
+                            "Key": "Data_Classification"
+                        }, 
+                        {
+                            "Value": "Christopher Lostaunau", 
+                            "Key": "CreatedBy"
+                        }, 
+                        {
+                            "Value": "Dummy", 
+                            "Key": "AIGName"
+                        }, 
+                        {
+                            "Value": "Stephen.Saenz@aig.com", 
+                            "Key": "App_Contact"
+                        }, 
+                        {
+                            "Value": "AIG TechSvcs PaaS", 
+                            "Key": "Support_Group"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ]
+        }
+    ]
+}
