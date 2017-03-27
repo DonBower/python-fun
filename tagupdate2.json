@@ -1,0 +1,43 @@
+{
+    "Updates": [
+        {
+            "obj_type": "EC2",
+            "obj_id": "i-0e2cc660fa725c142",
+            "updateTheseTags": {
+                "AMI": "ami-d969ceb9"
+            },
+            "addTheseTags": {
+                "CBD": "0031-0670-6222"
+            },
+            "removeTheseTags": {
+                "I_am_a_bad_tag": "yep-very-bad"
+            }
+        },
+        {
+            "obj_type": "EC2",
+            "obj_id": "i-0e2cc660fa725c142",
+            "updateTheseTags": {
+                "AMI": "ami-d969ceb9"
+            },
+            "addTheseTags": {
+                "CBD": "0031-0670-6222"
+            },
+            "removeTheseTags": {
+                "I_am_a_bad_tag": "yep-very-bad"
+            }
+        },
+        {
+            "obj_type": "EC2",
+            "obj_id": "i-0e2cc660fa725c142",
+            "updateTheseTags": {
+                "AMI": "ami-d969ceb9"
+            },
+            "addTheseTags": {
+                "CBD": "0031-0670-6222"
+            },
+            "removeTheseTags": {
+                "I_am_a_bad_tag": "yep-very-bad"
+            }
+        }
+    ]
+}

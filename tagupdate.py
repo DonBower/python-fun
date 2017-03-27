@@ -14,7 +14,8 @@
 #   Import Libraries
 #
 import json
-def compare_tags(obj_type, obj_tags, std_tags, type_tags):
+import os
+def compare_tags(updatelist, obj_type, obj_tags, std_tags, type_tags):
 #
 #   Establish list of Tags
 #
@@ -95,27 +96,27 @@ def compare_tags(obj_type, obj_tags, std_tags, type_tags):
             print('{0:2}{1:20}{2:25}{3:50}'.format('+', 'Add missing tag ', eachtag, stdtags[eachtag]))
             addTheseTags[eachtag] = stdtags[eachtag]
 
-    if os.path.getsize('tagupdate.json') > 0:
-        with open('tagupdate.json', 'a') as outfile:
-            outfile.write(',\n')
-
 
     updtags = {}
-#    updtags = {obj_type: [thisInstanceName]}
-#    updtags = {obj_type: ['obj_id': thisInstanceName]}
     updtags['obj_type'] = obj_type
     updtags['obj_id'] = thisInstanceName
     updtags['updateTheseTags'] = updateTheseTags
     updtags['addTheseTags'] = addTheseTags
     updtags['removeTheseTags'] = removeTheseTags
-    with open('tagupdate.json', 'a') as outfile:
+    with open(updatelist, 'r') as outfile:
+        existingFile=json.load(outfile)
+    existingFile['Updates'].append(updtags)
+    with open(updatelist, 'a') as outfile:
         json.dump(updtags, outfile, indent = 4)
-#        outfile.write(',\n')
 
-def print_tags(obj_tags):
-    objjdata = open(obj_tags)
-    objtags = json.load(objjdata)
-    print('Go!')
+def print_tags(updatelist):
+    updatedata = open(updatelist)
+    objtags = json.load(updatedata)
+#    print('Go!')
+#
+#    if 'Updates' in objtags:
+#        print(objtags['Updates'])
+#
     for updates in objtags['Updates']:
 #        print('\n')
 #        print(updates)

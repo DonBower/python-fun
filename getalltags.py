@@ -8,7 +8,7 @@ jsonlist=['ec2objs.json', 'ec2tags.json']
 jsonlist.extend(['elbobjs.json', 'elbtags.json'])
 jsonlist.extend(['rdsobjs.json', 'rdstags.json'])
 jsonlist.extend(['s3objs.json', 's3tags.json'])
-jsonlist.extend(['tagupdate.json'])
+updatelist='tagupdate.json'
 
 ec2objsjson=jsonlist[0]
 ec2tagsjson=jsonlist[1]
@@ -30,11 +30,14 @@ s3objsjson='s3objs.json'
 s3tagsjson='s3tags.json'
 '''
 ###########################################################
-#   Remove Old files
+#   Initalize Files
 ###########################################################
 for filename in jsonlist:
     if os.path.exists(filename):
         os.remove(filename)
+with open(updatelist, 'w') as outfile:
+    json.dump({'Updates':[]}, outfile, indent = 4)
+
 ###########################################################
 #   Retreive the JSON file describing all of the EC2
 #   Instances from the selected environment.
@@ -51,7 +54,7 @@ if 'Reservations' in allec2s:
                 print('aws ec2 describe-tags --filters "Name=resource-id,Values=', instance['InstanceId'], '" > ', ec2tagsjson)
                 os.system('aws ec2 describe-tags --filters "Name=resource-id,Values=' + instance['InstanceId'] + '" > ' + ec2tagsjson)
                 print('\n')
-                compare_tags('EC2', ec2tagsjson, 'stdtags.json', 'ec2stdtags.json')
+                compare_tags(updatelists 'EC2', ec2tagsjson, 'stdtags.json', 'ec2stdtags.json')
 #                print_tags(ec2tagsjson)
 
 ###########################################################

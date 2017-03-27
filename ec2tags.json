@@ -1,118 +1,130 @@
 {
     "Tags": [
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "tagsasc1md0002", 
-            "Key": "AIGName"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "AIGName",
+            "Value": "tagsasc1md0001"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "ami-d969ceb9", 
-            "Key": "AMI"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "AMI",
+            "Value": "ami-13be557e"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "Stephen.Saenz@aig.com", 
-            "Key": "App_Contact"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "App_Contact",
+            "Value": "Stephen.Saenz@aig.com"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "PCF", 
-            "Key": "Application"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Application",
+            "Value": "PCF"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "Appliance", 
-            "Key": "Application_Role"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Application_Role",
+            "Value": "Appliance"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "TechSvcs", 
-            "Key": "BIO"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "BIO",
+            "Value": "TechSvcs"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "None", 
-            "Key": "Compliance"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "CBD",
+            "Value": "0031-0670-6222"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "Christopher Lostaunau", 
-            "Key": "CreatedBy"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "CreatedBy",
+            "Value": "Christopher Lostaunau"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "Restricted", 
-            "Key": "Data_Classification"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Data_Classification",
+            "Value": "Restricted"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "inc", 
-            "Key": "EnvironmentType"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "EnvironmentType",
+            "Value": "inc"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "5098", 
-            "Key": "GearID"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "GearID",
+            "Value": "5098"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "Im_A_Bad_Value", 
-            "Key": "Im_A_Bad_Tag"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Name",
+            "Value": "tagsasc1md0001"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "Im_A_Bad_Value_too", 
-            "Key": "Im_A_Bad_Tag_too"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Project",
+            "Value": "ConneXt"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "tagsasc1md0002", 
-            "Key": "Name"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Subcomponent",
+            "Value": "PCF Management"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "ConneXt", 
-            "Key": "Project"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Support_Email",
+            "Value": "EnterpriseDevOps@aig.com"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "PCF Management", 
-            "Key": "Subcomponent"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Support_Group",
+            "Value": "AIG TechSvcs PaaS"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "EnterpriseDevOps@aig.com", 
-            "Key": "Support_Email"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "Terraform",
+            "Value": "True"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "AIG TechSvcs PaaS", 
-            "Key": "Support_Group"
-        }, 
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "g",
+            "Value": "g"
+        },
         {
-            "ResourceType": "instance", 
-            "ResourceId": "i-019724f69982aa87f", 
-            "Value": "True", 
-            "Key": "Terraform"
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "livepd",
+            "Value": "drink"
+        },
+        {
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "lmfao",
+            "Value": "rof"
+        },
+        {
+            "ResourceId": "i-086cc906da26f67ed",
+            "ResourceType": "instance",
+            "Key": "whoa-there",
+            "Value": "howdy"
         }
     ]
 }

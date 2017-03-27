@@ -1,338 +1,376 @@
 {
     "Reservations": [
         {
-            "OwnerId": "516131926383", 
-            "ReservationId": "r-02e2d55f9fa2e3bb4", 
-            "Groups": [], 
+            "ReservationId": "r-0be990b9e960e0e97",
+            "OwnerId": "581698278165",
+            "Groups": [],
             "Instances": [
                 {
+                    "InstanceId": "i-0e2cc660fa725c142",
+                    "ImageId": "ami-13be557e",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-172-31-7-1.ec2.internal",
+                    "PublicDnsName": "ec2-52-3-225-19.compute-1.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "KeyName": "keypair-aws-local",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2017-03-10T17:07:45.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1d",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
                     "Monitoring": {
                         "State": "disabled"
-                    }, 
-                    "PublicDnsName": "", 
-                    "State": {
-                        "Code": 16, 
-                        "Name": "running"
-                    }, 
-                    "EbsOptimized": false, 
-                    "LaunchTime": "2017-03-24T16:24:33.000Z", 
-                    "PrivateIpAddress": "10.15.228.36", 
-                    "ProductCodes": [], 
-                    "VpcId": "vpc-981eceff", 
-                    "StateTransitionReason": "", 
-                    "InstanceId": "i-019724f69982aa87f", 
-                    "ImageId": "ami-d969ceb9", 
-                    "PrivateDnsName": "ip-10-15-228-36.us-west-2.compute.internal", 
-                    "KeyName": "keypair-xw2-inc-pcf", 
-                    "SecurityGroups": [
-                        {
-                            "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
-                            "GroupId": "sg-1601e56d"
-                        }
-                    ], 
-                    "ClientToken": "", 
-                    "SubnetId": "subnet-157bae5c", 
-                    "InstanceType": "m3.large", 
-                    "NetworkInterfaces": [
-                        {
-                            "Status": "in-use", 
-                            "MacAddress": "06:35:52:4b:cd:8f", 
-                            "SourceDestCheck": true, 
-                            "VpcId": "vpc-981eceff", 
-                            "Description": "", 
-                            "NetworkInterfaceId": "eni-7777ff32", 
-                            "PrivateIpAddresses": [
-                                {
-                                    "Primary": true, 
-                                    "PrivateIpAddress": "10.15.228.36"
-                                }
-                            ], 
-                            "Ipv6Addresses": [], 
-                            "Attachment": {
-                                "Status": "attached", 
-                                "DeviceIndex": 0, 
-                                "DeleteOnTermination": true, 
-                                "AttachmentId": "eni-attach-f1813c88", 
-                                "AttachTime": "2017-03-24T16:24:33.000Z"
-                            }, 
-                            "Groups": [
-                                {
-                                    "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
-                                    "GroupId": "sg-1601e56d"
-                                }
-                            ], 
-                            "SubnetId": "subnet-157bae5c", 
-                            "OwnerId": "516131926383", 
-                            "PrivateIpAddress": "10.15.228.36"
-                        }
-                    ], 
-                    "SourceDestCheck": true, 
-                    "Placement": {
-                        "Tenancy": "default", 
-                        "GroupName": "", 
-                        "AvailabilityZone": "us-west-2a"
-                    }, 
-                    "Hypervisor": "xen", 
+                    },
+                    "SubnetId": "subnet-0a80136f",
+                    "VpcId": "vpc-bb4932dd",
+                    "PrivateIpAddress": "172.31.7.1",
+                    "PublicIpAddress": "52.3.225.19",
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
                     "BlockDeviceMappings": [
                         {
-                            "DeviceName": "/dev/sda1", 
+                            "DeviceName": "/dev/sda1",
                             "Ebs": {
-                                "Status": "attached", 
-                                "DeleteOnTermination": true, 
-                                "VolumeId": "vol-03bc6de8ca87fd808", 
-                                "AttachTime": "2017-03-24T16:24:33.000Z"
+                                "VolumeId": "vol-0fa40f05a8231e3fc",
+                                "Status": "attached",
+                                "AttachTime": "2017-03-10T17:07:45.000Z",
+                                "DeleteOnTermination": true
                             }
                         }
-                    ], 
-                    "Architecture": "x86_64", 
-                    "RootDeviceType": "ebs", 
-                    "RootDeviceName": "/dev/sda1", 
-                    "VirtualizationType": "hvm", 
+                    ],
+                    "VirtualizationType": "hvm",
+                    "ClientToken": "",
                     "Tags": [
                         {
-                            "Value": "PCF Management", 
-                            "Key": "Subcomponent"
-                        }, 
+                            "Key": "Application",
+                            "Value": "PCF"
+                        },
                         {
-                            "Value": "tagsasc1md0002", 
-                            "Key": "Name"
-                        }, 
+                            "Key": "Name",
+                            "Value": "tagsasc1md0002"
+                        },
                         {
-                            "Value": "TechSvcs", 
-                            "Key": "BIO"
-                        }, 
+                            "Key": "Subcomponent",
+                            "Value": "PCF Management"
+                        },
                         {
-                            "Value": "Im_A_Bad_Value", 
-                            "Key": "Im_A_Bad_Tag"
-                        }, 
+                            "Key": "Compliance",
+                            "Value": "None"
+                        },
                         {
-                            "Value": "tagsasc1md0002", 
-                            "Key": "AIGName"
-                        }, 
+                            "Key": "Application_Role",
+                            "Value": "Appliance"
+                        },
                         {
-                            "Value": "PCF", 
-                            "Key": "Application"
-                        }, 
+                            "Key": "BIO",
+                            "Value": "TechSvcs"
+                        },
                         {
-                            "Value": "True", 
-                            "Key": "Terraform"
-                        }, 
+                            "Key": "AIGName",
+                            "Value": "tagsasc1md0002"
+                        },
                         {
-                            "Value": "ami-d969ceb9", 
-                            "Key": "AMI"
-                        }, 
+                            "Key": "Terraform",
+                            "Value": "True"
+                        },
                         {
-                            "Value": "Stephen.Saenz@aig.com", 
-                            "Key": "App_Contact"
-                        }, 
+                            "Key": "CreatedBy",
+                            "Value": "Christopher Lostaunau"
+                        },
                         {
-                            "Value": "inc", 
-                            "Key": "EnvironmentType"
-                        }, 
+                            "Key": "I_am_a_bad_tag",
+                            "Value": "yep-very-bad"
+                        },
                         {
-                            "Value": "None", 
-                            "Key": "Compliance"
-                        }, 
+                            "Key": "Support_Email",
+                            "Value": "EnterpriseDevOps@aig.com"
+                        },
                         {
-                            "Value": "AIG TechSvcs PaaS", 
-                            "Key": "Support_Group"
-                        }, 
+                            "Key": "GearID",
+                            "Value": "5098"
+                        },
                         {
-                            "Value": "Christopher Lostaunau", 
-                            "Key": "CreatedBy"
-                        }, 
+                            "Key": "Support_Group",
+                            "Value": "AIG TechSvcs PaaS"
+                        },
                         {
-                            "Value": "5098", 
-                            "Key": "GearID"
-                        }, 
+                            "Key": "EnvironmentType",
+                            "Value": "inc"
+                        },
                         {
-                            "Value": "Restricted", 
-                            "Key": "Data_Classification"
-                        }, 
+                            "Key": "AMI",
+                            "Value": "ami-13be557e"
+                        },
                         {
-                            "Value": "Appliance", 
-                            "Key": "Application_Role"
-                        }, 
+                            "Key": "App_Contact",
+                            "Value": "Stephen.Saenz@aig.com"
+                        },
                         {
-                            "Value": "ConneXt", 
-                            "Key": "Project"
-                        }, 
+                            "Key": "Data_Classification",
+                            "Value": "Restricted"
+                        },
                         {
-                            "Value": "Im_A_Bad_Value_too", 
-                            "Key": "Im_A_Bad_Tag_too"
-                        }, 
+                            "Key": "Project",
+                            "Value": "ConneXt-x"
+                        },
                         {
-                            "Value": "EnterpriseDevOps@aig.com", 
-                            "Key": "Support_Email"
+                            "Key": "hahaha",
+                            "Value": "ooops"
                         }
-                    ], 
-                    "AmiLaunchIndex": 0
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "default",
+                            "GroupId": "sg-5adfc326"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "NetworkInterfaceId": "eni-78ac2d6c",
+                            "SubnetId": "subnet-0a80136f",
+                            "VpcId": "vpc-bb4932dd",
+                            "Description": "",
+                            "OwnerId": "581698278165",
+                            "Status": "in-use",
+                            "MacAddress": "02:d9:b7:70:dd:0e",
+                            "PrivateIpAddress": "172.31.7.1",
+                            "PrivateDnsName": "ip-172-31-7-1.ec2.internal",
+                            "SourceDestCheck": true,
+                            "Groups": [
+                                {
+                                    "GroupName": "default",
+                                    "GroupId": "sg-5adfc326"
+                                }
+                            ],
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-d383814a",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2017-03-10T17:07:45.000Z",
+                                "DeleteOnTermination": true
+                            },
+                            "Association": {
+                                "PublicIp": "52.3.225.19",
+                                "PublicDnsName": "ec2-52-3-225-19.compute-1.amazonaws.com",
+                                "IpOwnerId": "amazon"
+                            },
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "172.31.7.1",
+                                    "PrivateDnsName": "ip-172-31-7-1.ec2.internal",
+                                    "Primary": true,
+                                    "Association": {
+                                        "PublicIp": "52.3.225.19",
+                                        "PublicDnsName": "ec2-52-3-225-19.compute-1.amazonaws.com",
+                                        "IpOwnerId": "amazon"
+                                    }
+                                }
+                            ],
+                            "Ipv6Addresses": []
+                        }
+                    ],
+                    "EbsOptimized": false
                 }
             ]
-        }, 
+        },
         {
-            "OwnerId": "516131926383", 
-            "ReservationId": "r-0969d918dfbf2b57a", 
-            "Groups": [], 
+            "ReservationId": "r-0f310a05699c87197",
+            "OwnerId": "581698278165",
+            "Groups": [],
             "Instances": [
                 {
+                    "InstanceId": "i-086cc906da26f67ed",
+                    "ImageId": "ami-13be557e",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-172-31-15-109.ec2.internal",
+                    "PublicDnsName": "ec2-34-205-177-82.compute-1.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "KeyName": "don",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2017-03-25T03:55:09.000Z",
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1d",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
                     "Monitoring": {
                         "State": "disabled"
-                    }, 
-                    "PublicDnsName": "", 
-                    "State": {
-                        "Code": 16, 
-                        "Name": "running"
-                    }, 
-                    "EbsOptimized": false, 
-                    "LaunchTime": "2017-03-24T16:24:34.000Z", 
-                    "PrivateIpAddress": "10.15.228.37", 
-                    "ProductCodes": [], 
-                    "VpcId": "vpc-981eceff", 
-                    "StateTransitionReason": "", 
-                    "InstanceId": "i-0a85939f7d3d92d7a", 
-                    "ImageId": "ami-d969ceb9", 
-                    "PrivateDnsName": "ip-10-15-228-37.us-west-2.compute.internal", 
-                    "KeyName": "keypair-xw2-inc-pcf", 
-                    "SecurityGroups": [
-                        {
-                            "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
-                            "GroupId": "sg-1601e56d"
-                        }
-                    ], 
-                    "ClientToken": "", 
-                    "SubnetId": "subnet-157bae5c", 
-                    "InstanceType": "m3.large", 
-                    "NetworkInterfaces": [
-                        {
-                            "Status": "in-use", 
-                            "MacAddress": "06:9f:87:c2:6f:0b", 
-                            "SourceDestCheck": true, 
-                            "VpcId": "vpc-981eceff", 
-                            "Description": "", 
-                            "NetworkInterfaceId": "eni-260a8263", 
-                            "PrivateIpAddresses": [
-                                {
-                                    "Primary": true, 
-                                    "PrivateIpAddress": "10.15.228.37"
-                                }
-                            ], 
-                            "Ipv6Addresses": [], 
-                            "Attachment": {
-                                "Status": "attached", 
-                                "DeviceIndex": 0, 
-                                "DeleteOnTermination": true, 
-                                "AttachmentId": "eni-attach-e6803d9f", 
-                                "AttachTime": "2017-03-24T16:24:34.000Z"
-                            }, 
-                            "Groups": [
-                                {
-                                    "GroupName": "secgrp-lw2-inc-pcfopsmanager", 
-                                    "GroupId": "sg-1601e56d"
-                                }
-                            ], 
-                            "SubnetId": "subnet-157bae5c", 
-                            "OwnerId": "516131926383", 
-                            "PrivateIpAddress": "10.15.228.37"
-                        }
-                    ], 
-                    "SourceDestCheck": true, 
-                    "Placement": {
-                        "Tenancy": "default", 
-                        "GroupName": "", 
-                        "AvailabilityZone": "us-west-2a"
-                    }, 
-                    "Hypervisor": "xen", 
+                    },
+                    "SubnetId": "subnet-0a80136f",
+                    "VpcId": "vpc-bb4932dd",
+                    "PrivateIpAddress": "172.31.15.109",
+                    "PublicIpAddress": "34.205.177.82",
+                    "Architecture": "x86_64",
+                    "RootDeviceType": "ebs",
+                    "RootDeviceName": "/dev/sda1",
                     "BlockDeviceMappings": [
                         {
-                            "DeviceName": "/dev/sda1", 
+                            "DeviceName": "/dev/sda1",
                             "Ebs": {
-                                "Status": "attached", 
-                                "DeleteOnTermination": true, 
-                                "VolumeId": "vol-059d664d7a32ef600", 
-                                "AttachTime": "2017-03-24T16:24:34.000Z"
+                                "VolumeId": "vol-034e37d1e072d15e7",
+                                "Status": "attached",
+                                "AttachTime": "2017-03-25T03:55:10.000Z",
+                                "DeleteOnTermination": true
                             }
                         }
-                    ], 
-                    "Architecture": "x86_64", 
-                    "RootDeviceType": "ebs", 
-                    "RootDeviceName": "/dev/sda1", 
-                    "VirtualizationType": "hvm", 
+                    ],
+                    "VirtualizationType": "hvm",
+                    "ClientToken": "wBcmF1490414108756",
                     "Tags": [
                         {
-                            "Value": "PCF Management", 
-                            "Key": "Subcomponent"
-                        }, 
+                            "Key": "BIO",
+                            "Value": "TechSvcs"
+                        },
                         {
-                            "Value": "True", 
-                            "Key": "Terraform"
-                        }, 
+                            "Key": "App_Contact",
+                            "Value": "Stephen.Saenz@aig.com"
+                        },
                         {
-                            "Value": "None", 
-                            "Key": "Compliance"
-                        }, 
+                            "Key": "Data_Classification",
+                            "Value": "Restricted"
+                        },
                         {
-                            "Value": "Appliance", 
-                            "Key": "Application_Role"
-                        }, 
+                            "Key": "Name",
+                            "Value": "tagsasc1md0001"
+                        },
                         {
-                            "Value": "ami-d969ceb9", 
-                            "Key": "AMI"
-                        }, 
+                            "Key": "livepd",
+                            "Value": "drink"
+                        },
                         {
-                            "Value": "TechSvcs", 
-                            "Key": "BIO"
-                        }, 
+                            "Key": "Project",
+                            "Value": "ConneXt"
+                        },
                         {
-                            "Value": "inc", 
-                            "Key": "EnvironmentType"
-                        }, 
+                            "Key": "AMI",
+                            "Value": "ami-13be557e"
+                        },
                         {
-                            "Value": "PCF", 
-                            "Key": "Application"
-                        }, 
+                            "Key": "g",
+                            "Value": "g"
+                        },
                         {
-                            "Value": "Im_A_Bad_Value", 
-                            "Key": "Im_A_Bad_Tag"
-                        }, 
+                            "Key": "EnvironmentType",
+                            "Value": "inc"
+                        },
                         {
-                            "Value": "Dummy", 
-                            "Key": "Name"
-                        }, 
+                            "Key": "Support_Email",
+                            "Value": "EnterpriseDevOps@aig.com"
+                        },
                         {
-                            "Value": "5098", 
-                            "Key": "GearID"
-                        }, 
+                            "Key": "GearID",
+                            "Value": "5098"
+                        },
                         {
-                            "Value": "ConneXt", 
-                            "Key": "Project"
-                        }, 
+                            "Key": "lmfao",
+                            "Value": "rof"
+                        },
                         {
-                            "Value": "EnterpriseDevOps@aig.com", 
-                            "Key": "Support_Email"
-                        }, 
+                            "Key": "Application_Role",
+                            "Value": "Appliance"
+                        },
                         {
-                            "Value": "Restricted", 
-                            "Key": "Data_Classification"
-                        }, 
+                            "Key": "Support_Group",
+                            "Value": "AIG TechSvcs PaaS"
+                        },
                         {
-                            "Value": "Christopher Lostaunau", 
-                            "Key": "CreatedBy"
-                        }, 
+                            "Key": "CreatedBy",
+                            "Value": "Christopher Lostaunau"
+                        },
                         {
-                            "Value": "Dummy", 
-                            "Key": "AIGName"
-                        }, 
+                            "Key": "Subcomponent",
+                            "Value": "PCF Management"
+                        },
                         {
-                            "Value": "Stephen.Saenz@aig.com", 
-                            "Key": "App_Contact"
-                        }, 
+                            "Key": "Terraform",
+                            "Value": "True"
+                        },
                         {
-                            "Value": "AIG TechSvcs PaaS", 
-                            "Key": "Support_Group"
+                            "Key": "Application",
+                            "Value": "PCF"
+                        },
+                        {
+                            "Key": "AIGName",
+                            "Value": "tagsasc1md0001"
+                        },
+                        {
+                            "Key": "CBD",
+                            "Value": "0031-0670-6222"
+                        },
+                        {
+                            "Key": "whoa-there",
+                            "Value": "howdy"
                         }
-                    ], 
-                    "AmiLaunchIndex": 0
+                    ],
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "default",
+                            "GroupId": "sg-5adfc326"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "NetworkInterfaceId": "eni-65c35471",
+                            "SubnetId": "subnet-0a80136f",
+                            "VpcId": "vpc-bb4932dd",
+                            "Description": "Primary network interface",
+                            "OwnerId": "581698278165",
+                            "Status": "in-use",
+                            "MacAddress": "02:9b:eb:ca:1b:e4",
+                            "PrivateIpAddress": "172.31.15.109",
+                            "PrivateDnsName": "ip-172-31-15-109.ec2.internal",
+                            "SourceDestCheck": true,
+                            "Groups": [
+                                {
+                                    "GroupName": "default",
+                                    "GroupId": "sg-5adfc326"
+                                }
+                            ],
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-3b7c69a2",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "AttachTime": "2017-03-25T03:55:09.000Z",
+                                "DeleteOnTermination": true
+                            },
+                            "Association": {
+                                "PublicIp": "34.205.177.82",
+                                "PublicDnsName": "ec2-34-205-177-82.compute-1.amazonaws.com",
+                                "IpOwnerId": "amazon"
+                            },
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateIpAddress": "172.31.15.109",
+                                    "PrivateDnsName": "ip-172-31-15-109.ec2.internal",
+                                    "Primary": true,
+                                    "Association": {
+                                        "PublicIp": "34.205.177.82",
+                                        "PublicDnsName": "ec2-34-205-177-82.compute-1.amazonaws.com",
+                                        "IpOwnerId": "amazon"
+                                    }
+                                }
+                            ],
+                            "Ipv6Addresses": []
+                        }
+                    ],
+                    "EbsOptimized": false
                 }
             ]
         }
